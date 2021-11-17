@@ -877,7 +877,7 @@ contract MoobCoin is ERC20Permit, VaultOwned {
 
     using SafeMath for uint256;
 
-    constructor() ERC20("MoobCoin", "MOOB", 9) {
+    constructor() ERC20("MoobCoin", "MOO", 9) {
     }
 
     function mint(address account_, uint256 amount_) external onlyVault() {

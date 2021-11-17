@@ -754,7 +754,7 @@ contract wMOOB is ERC20 {
     address public immutable MOOB;
     address public immutable sMOOB;
 
-    constructor( address _staking, address _MOOB, address _sMOOB ) ERC20( 'Wrapped sMOOB', 'wsMOOB' ) {
+    constructor( address _staking, address _MOOB, address _sMOOB ) ERC20( 'Wrapped sMOOB', 'wsMOO' ) {
         require( _staking != address(0) );
         staking = _staking;
         require( _MOOB != address(0) );
